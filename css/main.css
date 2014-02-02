@@ -1,0 +1,199 @@
+/* ====================================================================
+Title: Main stylesheet
+Author: Mitch Dunaway
+Creator: Blackbaud
+Description: 
+======================================================================= */
+
+/* Imports
+-----------------------------------------------------------------------*/
+
+/* font imports go here */
+
+/* Reset
+-----------------------------------------------------------------------*/
+
+/* apply a natural box layout model to all elements */
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+
+html {
+	background: none;
+	height: 100%;
+}
+
+body {	
+	background: none;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	margin: 0 auto;
+}
+
+/* Typography
+-----------------------------------------------------------------------*/
+
+body {
+	font: 14px/18px Arial, Helvetica, Verdana, sans-serif;
+	color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* Global Classes
+-----------------------------------------------------------------------*/
+
+.img-replace {
+	display: block;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+.abs-pos {
+	position: absolute;
+}
+
+/* Main Structure
+-----------------------------------------------------------------------*/
+
+html {
+
+}
+
+body {
+	
+}
+
+/* Header
+-----------------------------------------------------------------------*/
+
+header.top-level {
+
+}
+
+/* Navigation
+-----------------------------------------------------------------------*/
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+nav.top-level {
+
+}
+
+nav.top-level a,
+nav.top-level a:link,
+nav.top-level a:visited {
+
+}
+
+nav.top-level a:hover,
+nav.top-level a:active {
+
+}
+
+/* #content
+-----------------------------------------------------------------------*/
+
+#content {
+
+}
+
+/* Footer
+-----------------------------------------------------------------------*/
+
+footer.top-level {
+
+}
+
+/* Responsiveness
+-----------------------------------------------------------------------*/
+
+@viewport{
+	width: extend-to-zoom;
+    zoom: 1.0;    
+}
+
+
+@media only screen and (max-width: 991px) {
+
+
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+
+}
+
+
+@media only screen and (max-width: 479px) {
+
+	
+}
+
+
+

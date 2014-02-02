@@ -1,0 +1,24 @@
+# notes
+
+## process
+so I have to get this built quickly
+I need to start from a template that includes:
+
+1. correct meta tags
+2. links to jquery
+3. correct media query breakpoints
+4. include the needed S-tags and other LO proprietary code
+
+the process I used at Edlio for slicing was this
+
+0. copy the blank template I had saved
+1. look at the mock up and write all the markup
+2. slice all the images out
+3. write all the css
+4. QA
+
+how does responsive desgin change this?
+
+1. have to keep in mind responsive when slicing images
+2. do not want more than one set of markup depending on situation - write once, deploy everywhere
+3. writing the CSS with take multiple passes; 1 for each situation
