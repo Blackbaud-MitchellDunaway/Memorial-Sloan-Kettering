@@ -10,66 +10,66 @@ Description: Main Stylesheet for Memorial Sloan Kettering
 
 @font-face {
     font-family: 'open_sans';
-    src: url('OpenSans-Bold-webfont.eot');
-    src: url('OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-Bold-webfont.woff') format('woff'),
-         url('OpenSans-Bold-webfont.ttf') format('truetype'),
-         url('OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'open_sans';
-    src: url('OpenSans-BoldItalic-webfont.eot');
-    src: url('OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-BoldItalic-webfont.woff') format('woff'),
-         url('OpenSans-BoldItalic-webfont.ttf') format('truetype'),
-         url('OpenSans-BoldItalic-webfont.svg#open_sansbold_italic') format('svg');
+    src: url('../fonts/OpenSans-BoldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-BoldItalic-webfont.svg#open_sansbold_italic') format('svg');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'open_sans';
-    src: url('OpenSans-Italic-webfont.eot');
-    src: url('OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-Italic-webfont.woff') format('woff'),
-         url('OpenSans-Italic-webfont.ttf') format('truetype'),
-         url('OpenSans-Italic-webfont.svg#open_sansitalic') format('svg');
+    src: url('../fonts/OpenSans-Italic-webfont.eot');
+    src: url('../fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Italic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Italic-webfont.svg#open_sansitalic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'open_sans';
-    src: url('OpenSans-Light-webfont.eot');
-    src: url('OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-Light-webfont.woff') format('woff'),
-         url('OpenSans-Light-webfont.ttf') format('truetype'),
-         url('OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'open_sans';
-    src: url('OpenSans-LightItalic-webfont.eot');
-    src: url('OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-LightItalic-webfont.woff') format('woff'),
-         url('OpenSans-LightItalic-webfont.ttf') format('truetype'),
-         url('OpenSans-LightItalic-webfont.svg#open_sanslight_italic') format('svg');
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot');
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-LightItalic-webfont.svg#open_sanslight_italic') format('svg');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'open_sans';
-    src: url('OpenSans-Regular-webfont.eot');
-    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-Regular-webfont.woff') format('woff'),
-         url('OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -103,7 +103,7 @@ body {
 -----------------------------------------------------------------------*/
 
 body {
-	font: 1em/1em 'open_sans', Arial, Helvetica, sans-serif;
+	font: 1em/1.2em 'open_sans', serif;
 	color: rgb(115, 115, 115);
 }
 
@@ -119,10 +119,10 @@ h6 {
 }
 
 h1 {
-	font: 3em/1em normal Georgia, Times, "Times New Roman", serif;
+	font: 2.25em/1em normal Georgia, Times, "Times New Roman", serif;
 	position: absolute;
 	top: 80px;
-	right: 0;
+	right: 30px;
 }
 
 h2 {
@@ -146,7 +146,7 @@ h6 {
 }
 
 p {
-
+	margin-top: 0;
 }
 
 a,
@@ -170,14 +170,29 @@ a:hover {
 	overflow: hidden;
 }
 
-.abs-pos {
-	position: absolute;
-}
-
-.inner {
-	max-width: 960px;
+.top-level > .inner {
+	max-width: 1020px;
 	position: relative;
 	margin: 0 auto;
+	
+}
+
+.top-level > .inner,
+nav ul { 
+	zoom: 1; 
+}
+
+.top-level > .inner:after,
+nav ul:after { 
+	clear: both; 
+}
+
+.top-level > .inner:before,
+.top-level > .inner:after,
+nav ul:before,
+nav ul:after { 
+	content: ""; 
+	display: table; 
 }
 
 /* Main Structure
@@ -196,7 +211,7 @@ body {
 
 header.top-level {
 	height: 187px;
-	border-bottom: 5px solid rgb(41,134,226);
+
 }
 
 #header_logo {
@@ -204,14 +219,15 @@ header.top-level {
 	height: 82px;
 	width: 270px;
 	position: absolute;
-	left: 0;
+	left: 30px;
 	top: 30px;
 }
 
 #sign_up {
 	position: absolute;
-	right: 461px;
-	top: 16px;
+	right: 410px;
+	top: 15px;	
+	width: 89px;
 }
 
 #sign_up_button {
@@ -221,7 +237,8 @@ header.top-level {
 	height: 45px;
 	padding: 14px 10px 0;
 	text-transform: uppercase;
-	color: rgb(115, 115, 115);	
+	color: rgb(115, 115, 115);
+	font-size: 0.875em;
 }
 
 #sign_up_button:after {
@@ -230,26 +247,40 @@ header.top-level {
 	background: url(../images/sprite_flyout_arrow.png) no-repeat 0 0;
 	position: absolute;
 	right: 10px;
-	top: 16px;
+	top: 19px;
 	width: 9px;
 	height: 5px;
 }
 
-#sign_up_button:hover {
+#sign_up_button.active {
 	text-decoration: none;
 	background: rgb(223,223,216);
 }
 
-#sign_up_button:hover:after {
-	background-position: 0 -50%;
+#sign_up_button.active:after  {
+	background-position: 0 -5px;
 }
 
 #sign_up form {
 	background: rgb(223,223,216);
 	width: 339px;
-	height: 260px;
 	border-bottom: 5px solid rgb(179,179,166);
 	padding: 20px 30px;
+	z-index: 10;
+	position: absolute;
+	top: 45px;
+	left: 0;
+}
+
+
+#sign_up form p { 
+	font-size: 1.125em;
+	line-height: 1.2em;
+	font-weight: 300px;
+}
+
+#sign_up input {
+	display: inline-block;
 }
 
 #sign_up input[type='text'],
@@ -257,19 +288,93 @@ header.top-level {
 	background: rgb(255,255,255);
 	border: 1px solid rgb(205,205,205);
 	padding: 13px 23px;
-	display: block;
-	margin: 0 0 10px;
+	margin: -1px 0 10px;
 	font-size: .8em;
 	width: 190px;
 	height: 40px;
 }
-#sign_up input[type='text']:focus,
-#sign_up input[type='email']:focus {
+
+#sign_up input[type='email'] {
+	float: left;
+	margin: -1px 10px 20px 0;
+}
+
+#sign_up input[type='submit'] {
+	background: rgb(179,179,166);
+	border: none;
+	display: block;
+	width: 73px;
+	height: 38px;
+	text-transform: uppercase;
+	color: rgb(255,255,255);
+	font-size: .75em;
+	font-family: 'open_sans', serif;
+}
+
+#sign_up input[type='submit']:hover {
+	background: rgb(41,134,226);
+	color: rgb(255,255,255);
+}
+
+#sign_up_close {
+	clear: left;
+	text-align: right;
+	text-transform: uppercase;
+	color: rgb(115,115,115);
+	display: block;
+	padding: 0 5px 0 0;
+}
+
+#site_search {
+	position: absolute;
+	right: 123px;
+	top: 15px;
+}
+
+#site_search input[type='text'] {
+	background: rgb(255,255,255);
 	border: 1px solid rgb(205,205,205);
+	padding: 13px 23px;
+	margin: 0 10px 0 0;
+	font-size: .8em;
+	width: 190px;
+	height: 40px;
+}
+
+#site_search input[type='submit'] {
+	background: rgb(63,146,229);
+	border: none;
+	width: 73px;
+	height: 40px;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	font-size: .75em;
+	font-family: 'open_sans', serif;
+}
+
+#site_search input[type='submit']:hover,
+#donate_button:hover {
+	opacity: .8;
+	text-decoration: none;	
+}
+
+#donate_button {
+	position: absolute;
+	right: 30px;
+	top: 15px;
+	background: rgb(243,117,63);
+	display: block;
+	width: 73px;
+	height: 40px;
+	padding: 0 10px;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	font: bold.75em/40px 'open_sans', serif;
+	text-align: center;
 }
 
 
-/* Navigation
+/* Navigation (Global)
 -----------------------------------------------------------------------*/
 
 nav ul {
@@ -282,21 +387,92 @@ nav li {
 	padding: 0;
 	margin: 0;
 	float: left;
+	position: relative;
 }
+
+nav li a {
+	display: block;
+}
+
+nav li:hover .drop-down,
+nav li:active .drop-down {
+	display: block;
+}
+
+nav .drop-down {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+
+nav .drop-down.last {
+	left: auto;
+	right: 0;
+}
+
+nav .drop-down li {
+	float: none;
+}
+
+/* Navigation (#main_navigation)
+-----------------------------------------------------------------------*/
 
 nav.top-level {
-
+	border-bottom: 5px solid rgb(41,134,226);
 }
 
-nav.top-level a,
-nav.top-level a:link,
-nav.top-level a:visited {
-
+#main_navigation {
+	position: relative;
+	top: 5px;
+	float: right;
 }
 
-nav.top-level a:hover,
-nav.top-level a:active {
+#main_navigation > li{
+	margin-left: 5px;
+}
 
+#main_navigation > li:first-child{
+	margin-left: 0;
+}
+
+#main_navigation > li > a,
+#main_navigation > li > a:link,
+#main_navigation > li > a:visited,
+#main_navigation > li > a:hover,
+#main_navigation > li > a:active {
+	text-transform: uppercase;
+	color: rgb(41,134,226);
+	padding: 10px 20px;
+}
+
+#main_navigation > li:hover > a,
+#main_navigation > li:active > a  {
+	background: rgb(242,101, 41);
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+
+#main_navigation .drop-down {
+	border-bottom: 1px solid rgb(225,225,225);
+}
+
+#main_navigation .drop-down a,
+#main_navigation .drop-down a:link,
+#main_navigation .drop-down a:visited {
+	background: rgb(255,255,255);
+	border: 1px solid rgb(225,225,225);
+	border-top: none;
+	text-transform: uppercase;
+	color: rgb(115,115,115);
+	padding: 15px 20px;
+	width: 225px;
+}
+
+#main_navigation .drop-down a:hover,
+#main_navigation .drop-down a:active {
+	color: rgb(242,101,41);
+	text-decoration: none;
 }
 
 /* #content
@@ -310,7 +486,87 @@ nav.top-level a:active {
 -----------------------------------------------------------------------*/
 
 footer.top-level {
+	font-size: 0.875em;
+	padding: 0 0 70px;
+}
 
+footer.top-level a,
+footer.top-level a:active,
+footer.top-level a:link,
+footer.top-level a:visited {
+	color: rgb(115, 115, 115);	
+}
+
+#footer_logo {
+	background: url(../images/bg_footer_logo.gif) no-repeat 0 0;
+	width: 165px;
+	height: 116px;
+	margin: 50px auto 0;
+}
+
+#footer_nav {
+	max-width: 550px;
+	margin: 30px auto 0;
+}
+
+#contact_information {
+	margin: 20px auto 0;
+}
+
+#contact_information ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#contact_information li,
+#footer_nav li {
+	padding: 7px 17px;
+	margin: 0;
+	border-left: 1px solid rgb(160,160,160);
+	display: inline-block;
+}
+
+#contact_information li:first-child,
+#footer_nav li:first-child {
+	border-left: none;
+}
+
+#social_links {
+	width: 160px;
+	margin: 35px auto 0;
+	padding: 45px 0 0;
+	position: relative;
+}
+
+#social_links p {
+	margin: 0;
+}
+
+#social_links nav {
+	position: absolute;
+	top: 0;
+}
+
+.footer-social-logo {
+	width: 32px;
+	height: 32px;
+	margin: 0 9px;
+	background-image: url(../images/sprite_social.png);
+	background-repeat: no-repeat;
+}
+
+#footer_facebook_logo {
+	background-position: 0 0;
+}
+
+#footer_twitter_logo {
+	background-position: -32px 0;
+}
+
+#footer_youtube_logo {
+	background-position: -64px 0;
 }
 
 /* Responsiveness
@@ -321,17 +577,45 @@ footer.top-level {
     zoom: 1.0;    
 }
 
+@media only screen and (max-width: 1000px) {
 
-@media only screen and (max-width: 991px) {
+	#contact_information ul {
+		margin: 0 auto;
+		width: 700px;
+	}
 
-
+	#contact_information .child_3 {
+		border-left: none;
+	}
 
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 940px) {
 
+	header.top-level {
+		height: 200px;
 
+	}
+
+	h1 {
+		top: 140px;
+	}
+
+	#sign_up {
+		right: 115px;
+		top: 15px;	
+	}
+
+	#sign_up form {
+		left: auto;
+		right: 0;
+	}
+
+	#site_search {
+		right: 30px;
+		top: 70px;
+	}
 
 }
 

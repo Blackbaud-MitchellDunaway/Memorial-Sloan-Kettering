@@ -17,7 +17,7 @@
 	<![endif]-->
 	    
 	<!-- JavaScript Files -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script type="text/javascript"> jQuery.noConflict(); </script>
 	<script src="js/scripts.js"></script>
 
@@ -26,7 +26,7 @@
 </head>
 <body>
 	<header class="top-level">
-		<div class="inner clearfix">	
+		<div class="inner">	
 			<h1>Giving to Memorial Sloan Kettering</h1>
 
 			<a id="header_logo" class="img-replace" href="/" title="logo and link to home page">Memorial Sloan Kettering Cancer Center</a>
@@ -39,67 +39,72 @@
 						<input type="text" name="first_name" id="first_name" placeholder="First Name" />
 						<input type="text" name="last_name" id="last_name" placeholder="Last Name" />
 						<input type="email" name="email_address" id="email_address" placeholder="Email Address" />
-						<input type="submit" name="submit" id="submit" />
+						<input type="submit" name="Sign Up" id="submit" value="sign up" />
+						<a href="#close" id="sign_up_close" title="close panel">Close [x]</a>
 					</form>
 				</div>
 				<div id="site_search">
-						<input type="text" name="search" id="email_address" placeholder="Email Address" />
-						<input type="submit" name="submit" id="submit_button" />
+						<input type="text" name="site_search_field" id="site_search_field" />
+						<input type="submit" name="submit" id="submit_button" value="search" />
 				</div>
-				<div id="donate_button">
-					<a href="#donate" id="donate_button" title="donate">Donate</a>
-				</div>
+				<a href="#donate" id="donate_button" title="donate">Donate</a>
 			</div>
 
 		</div><!-- /.inner -->
 	</header>
 	<nav class="top-level">
-		<div class="inner clearfix">
+		<div class="inner">
 
-			<ul class="clearfix">			
-				<li><a href="#">Giving Home</a>
-					<ul>
-						<li><a href="#"></a></li>
-						<li><a href="#"></a></li>
-						<li><a href="#"></a></li>
-					</ul>
-				</li>
+			<ul id="main_navigation">			
+				<li><a href="#">Giving Home</a></li>
 				<li><a href="#">Your Gifts At Work</a>
-					<ul>
-						<li><a href="#"></a></li>
-						<li><a href="#"></a></li>
-						<li><a href="#"></a></li>
+					<ul class="drop-down">
+						<li><a href="#">Whom You Help</a></li>
+						<li><a href="#">Meet Our Donors</a></li>
+						<li><a href="#">The Campaign</a></li>
+						<li><a href="#">Giving by the Numbers</a></li>
+						<li><a href="#">Share Your Story</a></li>
 					</ul>
 				</li>
 				<li><a href="#">Get Involoved</a>
-					<ul>
-						<li><a href="#"></a></li>
-						<li><a href="#"></a></li>
-						<li><a href="#"></a></li>
+					<ul class="drop-down">
+						<li><a href="#">Create a Giving Page</a></li>
+						<li><a href="#">Join an Athletic Event</a></li>
+						<li><a href="#">Host Your Own Event</a></li>
+						<li><a href="#">Share a Special Occasion</a></li>
+						<li><a href="#">Join Our Community</a></li>
+						<li><a href="#">Find an Event</a></li>
+						<li><a href="#">Send an e-Card</a></li>
+						<li><a href="#">Buy Merchandise</a></li>
 					</ul>
 				</li>
 				<li><a href="#">Ways To Give</a>
-					<ul>
-						<li><a href="#"></a></li>
-						<li><a href="#"></a></li>
-						<li><a href="#"></a></li>
+					<ul class="drop-down last">
+						<li><a href="#">Donate Now</a></li>
+						<li><a href="#">Honor and Memorial Giving</a></li>
+						<li><a href="#">Gifts and Pledges</a></li>
+						<li><a href="#">Wills, Trusts and Gift Planning</a></li>
+						<li><a href="#">Corporate Giving</a></li>
+						<li><a href="#">Matching Gifts</a></li>
+						<li><a href="#">Foundations</a></li>
+						<li><a href="#">The Society of MSKCC</a></li>
 					</ul>
 				</li>
 			</ul>
 
 		</div><!-- /.inner -->
 	</nav>
-	<div id="content" class="clearfix">
+	<div id="content">
 
 
 	</div>
 	<footer class="top-level">
-		<div class="inner clearfix">
+		<div class="inner">
 
-			<div id="footer_logo" class="img-replace">Memorial Sloan Kettering Cancer Center</div>
+			<a id="footer_logo" class="img-replace" href="/" title="logo and link to home page">Memorial Sloan Kettering Cancer Center</a>
 
-			<nav>
-				<ul class="clearfix">			
+			<nav id="footer_nav">
+				<ul>			
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Contact Us</a></li>
 					<li><a href="#">Privacy Policy</a></li>
@@ -110,20 +115,20 @@
 
 			<div id="contact_information">
 				<ul class="clearfix">			
-					<li>&copy; Memorial Sloan Kettering Cancer Center</li>
-					<li>1275 York Avenue, New York, NY 10065</li>
-					<li>1-866-815-9501</li>
-					<li><a href="mailto:development@mskcc.org">development@mskcc.org</a></li>
+					<li class="child_1">&copy; Memorial Sloan Kettering Cancer Center</li>
+					<li class="child_2">1275 York Avenue, New York, NY 10065</li>
+					<li class="child_3">1-866-815-9501</li>
+					<li class="child_4"><a href="mailto:development@mskcc.org">development@mskcc.org</a></li>
 				</ul>
 			</div>
 
 			<div id="social_links">
 				<p>Stay connected with us.</p>
 				<nav>
-					<ul class="clearfix">			
-						<li><a href="#">Facebook</a></li>
-						<li><a href="#">Twitter</a></li>
-						<li><a href="#">You Tube</a></li>
+					<ul>			
+						<li><a class="img-replace footer-social-logo" href="#" id="footer_facebook_logo" title="Facebook">Facebook</a></li>
+						<li><a class="img-replace footer-social-logo" href="#" id="footer_twitter_logo" title="Twitter">Twitter</a></li>
+						<li><a class="img-replace footer-social-logo" href="#" id="footer_youtube_logo" title="You Tube">You Tube</a></li>
 					</ul>
 				</nav>
 			</div>
