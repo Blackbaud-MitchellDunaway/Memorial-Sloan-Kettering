@@ -1,3 +1,4 @@
+[[U8:text/js]]
 jQuery(document).ready(function($) {
   	
 	close_sign_up();
