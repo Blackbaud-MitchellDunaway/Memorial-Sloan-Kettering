@@ -28,6 +28,14 @@ jQuery(document).ready(function($) {
 		}
 	})
 
+  $('#nav_reveal').click(function(e){
+    e.preventDefault();
+    if ($('#nav_panel').hasClass('active')) {
+      $('#nav_panel').removeClass('active');
+    } else {
+      $('#nav_panel').addClass('active');
+    }
+  })
 
 
 }); //end jQuery(document).ready();
