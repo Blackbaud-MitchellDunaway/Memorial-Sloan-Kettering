@@ -22,3 +22,18 @@ how does responsive desgin change this?
 1. have to keep in mind responsive when slicing images
 2. do not want more than one set of markup depending on situation - write once, deploy everywhere
 3. writing the CSS with take multiple passes; 1 for each situation
+
+TODO:
+
+1. break up wrapper code into reus files so that I can update wrapper without unpublishing it
+2. rename the reus files so that they are more easily searchable
+3. text field changes to a rounded corner box with a slight drop shadow inside.
+4. 1px white line between the blue and orange bars in the collapsed top nav.
+5. reduce the font size of the headline for the phone The PSDs drop from 36pt (desktop and tablet) to 32pt (phone).
+target font size divided by font size of containing element gives size in ems 32/16 = 2
+6. Would like to disable the AddThis Share bar/functionality completely from phone breakpoints.
+7. move the "Close [X]" link up so it centers vertically with the Sign Up button. The box can shorten a few pixels as a result.
+8. if you tap on the button itself a second time take the viewer to a landing page.
+9. make it so tapping anywhere else on the page dismisses the submenu
+
+

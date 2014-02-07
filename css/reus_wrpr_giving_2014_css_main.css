@@ -3,7 +3,7 @@
 Title: Main stylesheet
 Author: Mitch Dunaway
 Creator: Blackbaud
-Description: Main Stylesheet for Memorial Sloan Kettering
+Page Builder: reus_wrpr_giving_2014_css_main
 ======================================================================= */
 
 /* Imports
@@ -98,6 +98,23 @@ body {
 	height: 100%;
 	-webkit-font-smoothing: antialiased;
 	margin: 0 auto;
+}
+
+textarea, 
+input[type="text"], 
+input[type="submit"],
+input[type="email"] {
+	-webkit-appearance: none;
+	/* webkit is starting to become a nuisance */
+}
+
+button, 
+input, 
+select, 
+textarea {
+	-webkit-border-radius: 0px; 
+	-moz-border-radius: 0px; 
+	border-radius: 0px;
 }
 
 /* Typography
@@ -286,6 +303,7 @@ header.top-level > .inner {
 }
 
 #sign_up form {
+	display: none;
 	background: rgb(223,223,216);
 	width: 339px;
 	border-bottom: 5px solid rgb(179,179,166);
@@ -294,6 +312,10 @@ header.top-level > .inner {
 	position: absolute;
 	top: 45px;
 	left: 0;
+}
+
+#sign_up form.active {
+	display: block;
 }
 
 
@@ -341,12 +363,14 @@ header.top-level > .inner {
 }
 
 #sign_up_close {
-	clear: left;
-	text-align: right;
 	text-transform: uppercase;
 	color: rgb(115,115,115);
 	display: block;
 	padding: 0 5px 0 0;
+	width: 90px;
+	position: absolute;
+	right: 18px;
+	bottom: 11px;
 }
 
 #site_search {
@@ -652,6 +676,15 @@ footer.top-level a:visited {
 		border-top: 40px solid rgb(41,146,226);
 	}
 
+	h1 {
+		font-size: 2em;
+		right: 10px;
+	}
+
+	#header_logo {
+		left: 20px;
+	}
+
 	#nav_panel {
 		display: none;
 		position: relative;
@@ -685,7 +718,7 @@ footer.top-level a:visited {
 
 	#sign_up form {
 		top: 1px;
-		right: 73px;
+		right: 74px;
 	}
 
 	#site_search {
@@ -699,9 +732,18 @@ footer.top-level a:visited {
 		box-shadow:         0px 2px 3px 0px rgba(50, 50, 50, 0.5);
 	}
 
-	#donate_button {
+	#donate_wrap {
+		position: absolute;
+		background: rgb(255,255,255);
+		height: 40px;
+		width: 74px;
 		right: 0;
 		top: -40px;
+	}
+
+	#donate_button {
+		right: 0;
+		top: 0;
 	}
 
 	#main_navigation {
@@ -756,6 +798,21 @@ footer.top-level a:visited {
 	#sign_up form {
 		width: 100%;
 		right: 0;
+	}
+
+	#sign_up input[type='email'] {
+		float: none;
+		margin: -1px 0 10px;
+	}
+
+	#sign_up input[type='text'], 
+	#sign_up input[type='email'] {
+		width: inherit;
+	}
+
+	#sign_up_close {
+		right: 33px;
+		bottom: 26px;
 	}
 
 }
