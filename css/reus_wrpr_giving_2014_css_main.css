@@ -243,10 +243,14 @@ header.top-level > .inner {
 	height: 182px;
 }
 
-#header_logo {
+#header_logo,
+#footer_logo {
 	background: url(/images/wrpr/giving/2014/bg_header_logo.gif) no-repeat 0 0;
 	height: 82px;
 	width: 270px;
+}
+
+#header_logo {
 	position: absolute;
 	left: 30px;
 	top: 30px;
@@ -546,9 +550,6 @@ footer.top-level a:visited {
 }
 
 #footer_logo {
-	background: url(/images/wrpr/giving/2014/bg_footer_logo.gif) no-repeat 0 0;
-	width: 165px;
-	height: 116px;
 	margin: 50px auto 0;
 }
 
@@ -679,6 +680,13 @@ footer.top-level a:visited {
 	h1 {
 		font-size: 2em;
 		right: 10px;
+	}
+
+	#header_logo,
+	#footer_logo {
+		background: url(/images/wrpr/giving/2014/bg_header_logo_reduced.gif) no-repeat 0 0;
+		height: 73px;
+		width: 240px;
 	}
 
 	#header_logo {
