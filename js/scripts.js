@@ -1,4 +1,3 @@
-[[U8:text/js]]
 // reus_wrpr_giving_2014_js_scripts
 jQuery(document).ready(function($) {
 
